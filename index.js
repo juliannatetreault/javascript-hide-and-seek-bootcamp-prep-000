@@ -1,9 +1,9 @@
 getFirstSelector(selector); {
-  return document.querySelector(selector);
+  document.querySelector(selector);
 }
 
 nestedTarget(); {
-  return document.querySelector('#nested .target');
+  document.querySelector('#nested .target');
 }
 
 increaseRankBy(n); {
@@ -15,5 +15,5 @@ increaseRankBy(n); {
 }
 
 deepestChild(); {
-return document.querySelector('#grand-node div div div div');
+  document.querySelector('#grand-node div div div div');
 }
